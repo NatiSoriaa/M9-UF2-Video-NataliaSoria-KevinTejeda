@@ -21,6 +21,7 @@
     gap: 20px; /* Espacio entre video y tabla */
 }
 
+
 .video-container {
     flex: 2; /* Ocupa más espacio */
     display: flex;
@@ -42,7 +43,10 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    max-height: 650px; /* Altura máxima */
+    overflow-y: auto; /* Muestra una barra de desplazamiento cuando sea necesario */
 }
+
 
 .table-container table {
     width: 100%;
